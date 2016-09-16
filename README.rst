@@ -1,8 +1,8 @@
 get_modis
 ==========
 :Info: MODIS data product granule downloader
-:Author: J Gomez-Dans <j.gomez-dans@ucl.ac.uk>
-:Date: $Date: 2013-06-17 17:00:00 +0000  $
+:Author: J Gomez-Dans <j.gomez-dans@ucl.ac.uk>, P Lewis ,p.lewis@ucl.ac.uk>
+:Date: $Date: 2016-09-16 00:00:00 +0000  $
 :Description: README file
 
 Description
@@ -32,7 +32,7 @@ issuing the ``-h`` or ``--help`` commands:
 
     DESCRIPTION
 
-    A program to download MODIS data from the USGS website using the HTTP
+    A program to download MODIS data from the opendap website using the sHTTP
     transport. This program is able to download daily, monthly, 8-daily, etc 
     products for a given year, it only requires the product names (including the 
     collection number), the year, the MODIS reference tile and additionally, where
@@ -58,8 +58,11 @@ issuing the ``-h`` or ``--help`` commands:
     AUTHOR
 
         J Gomez-Dans <j.gomez-dans@ucl.ac.uk>
-        See also http://github.com/jgomezdans/get_modis/
+        P Lewis ,p.lewis@ucl.ac.uk>
+        See also http://github.com/UCL-EO/get_modis/
 
+    CHANGES
+        Fri 16 Sep 2016 14:52:29 BST: edited to deal with 
 
 
     Options
